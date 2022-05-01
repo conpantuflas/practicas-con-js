@@ -1,7 +1,7 @@
 
 
 //cambio de color de texto
-let div = document.getElementById("div")
+/*let div = document.getElementById("div")
 console.log(div)
 
 div.innerHTML = `
@@ -38,4 +38,4 @@ function cambioDeBackGround(){
         break;
     }
 }
-)
+)*/

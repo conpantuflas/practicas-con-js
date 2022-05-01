@@ -1,5 +1,5 @@
 
-let divDos = document.getElementById("divDos")
+/*let divDos = document.getElementById("divDos")
 console.log(divDos)
 
 divDos.innerHTML=`
@@ -24,4 +24,4 @@ function cambioDeHambre(){
     }
     console.log(hambre.innerText)
 }
-)
+)*/

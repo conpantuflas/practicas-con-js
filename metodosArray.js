@@ -8,8 +8,8 @@ let jugosPorDos = jugos.map((caracter)=> {
 })
 console.log(jugosPorDos)*/
 
-let colores = [{nombre: "red"},{nombre: "yellow"},{nombre: "pink"},{nombre: "blue"}]
-colores.map((unColor, i)=> {
+/*let colores = [{nombre: "red"},{nombre: "yellow"},{nombre: "pink"},{nombre: "blue"}]
+    colores.map((unColor, i)=> {
     unColor.id = i
     //if(unColor.id === )
     switch(unColor.id){
@@ -18,7 +18,7 @@ colores.map((unColor, i)=> {
         case 2: unColor.rgb = '#00ffff' 
     }
 })
-console.log(colores)
+console.log(colores)*/
 
 //--------------------------------------------------------------------------------------------
 

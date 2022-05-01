@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina de pruebas</title>
+</head>
+<body>
+    <h1>Hola mundo</h1>
+
+    <button onclick="saludar('damian ','sire')">saludar a damian</button>
+    <button onclick="saludar('camila','perez')">saludar a camila</button>
+    <button onclick="saludar('alberto','olivera')">saludar a alberto</button>
+
+    <div id="elDiv">hola aca voy a saludar al usuario</div>
+
+    <script>
+        function saludar(nombre,apellido){
+            let elDiv = document.getElementById("elDiv")
+            elDiv.innerText = "te quiero"
+            alert("hola "+ nombre +""+apellido)
+        }
+
+    </script>
+</body>
+</html>
